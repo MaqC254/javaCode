@@ -16,7 +16,6 @@ public class Main {
                 System.out.println("Enter your choice\n P = Play , K = Pause , R = Restart clip , Q = Quit");
                 choice = scanner.next();
                 choice = choice.toUpperCase();
-                long songMinute = 0;
                 switch (choice) {
                     case "P":
                         clip.start();
